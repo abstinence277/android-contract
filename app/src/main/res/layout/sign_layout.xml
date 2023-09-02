@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@mipmap/picture"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:background="#333333"
+            android:gravity="center"
+            android:text="合同签订"
+            android:textSize="20sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="植保站合同:"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:text="请输入您的单位名称："
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:autofillHints="输入防治企业ID号" />
+
+        <TextView
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:text="请输入防治企业ID号："
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/name2"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:autofillHints="输入防治组织ID号" />
+
+        <TextView
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:text="签订时间："
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/time"
+            android:layout_width="214dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:text="2021-07-12"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:text="请输入签订地点："
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/place"
+            android:layout_width="400dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:autofillHints="省名称"
+            android:hint="省名称+省编码+市名称+市编码"
+            android:textSize="15sp" />
+
+
+
+    </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/summit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#003300"
+        android:text="提交"
+        android:textColor="#ffffff" />
+</RelativeLayout>

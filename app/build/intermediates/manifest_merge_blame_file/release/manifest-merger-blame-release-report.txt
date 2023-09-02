@@ -1,0 +1,125 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:4:5-66
+11-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:6:5-63:19
+14        android:allowBackup="true"
+14-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.1] E:\2345Downloads\shoppinginterface3\.gradle\caches\modules-2\caches\transforms-2\files-2.1\699cfaefa0a8f73351f140eadff94bcd\core-1.3.1\AndroidManifest.xml:24:18-86
+16        android:icon="@mipmap/ic_launcher"
+16-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:8:9-43
+17        android:label="@string/app_name"
+17-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:9:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:10:9-54
+19        android:supportsRtl="true"
+19-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:11:9-35
+20        android:theme="@style/Theme.MyApplication" >
+20-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:12:9-51
+21        <activity android:name="com.example.myapplication.MainActivity" >
+21-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:13:9-19:20
+21-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:13:19-47
+22            <intent-filter>
+22-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:14:13-18:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:15:17-69
+23-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:15:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:17:17-77
+25-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:17:27-74
+26            </intent-filter>
+27        </activity>
+28        <activity android:name="com.example.myapplication.people1" >
+28-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:21:9-27:20
+28-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:21:19-42
+29            <intent-filter>
+29-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:14:13-18:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:15:17-69
+30-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:15:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:17:17-77
+32-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:17:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.example.myapplication.Check" >
+35-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:29:9-35:20
+35-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:29:19-40
+36            <intent-filter>
+36-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:14:13-18:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:15:17-69
+37-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:15:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:17:17-77
+39-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:17:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity android:name="com.example.myapplication.sign" >
+42-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:37:9-43:20
+42-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:37:19-39
+43            <intent-filter>
+43-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:14:13-18:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:15:17-69
+44-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:15:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:17:17-77
+46-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:17:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.example.myapplication.details" >
+49-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:45:9-51:20
+49-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:45:19-42
+50            <intent-filter>
+50-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:14:13-18:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:15:17-69
+51-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:15:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:17:17-77
+53-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:17:27-74
+54            </intent-filter>
+55        </activity>
+56        <activity android:name="com.example.myapplication.edit" >
+56-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:53:9-59:20
+56-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:53:19-39
+57            <intent-filter>
+57-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:14:13-18:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:15:17-69
+58-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:15:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:17:17-77
+60-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:17:27-74
+61            </intent-filter>
+62        </activity>
+63        <activity android:name="com.example.myapplication.sign2" />
+63-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:60:9-43
+63-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:60:19-40
+64        <activity android:name="com.example.myapplication.people2" />
+64-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:61:9-45
+64-->E:\desktop\MyApplication\app\src\main\AndroidManifest.xml:61:19-42
+65    </application>
+66
+67</manifest>

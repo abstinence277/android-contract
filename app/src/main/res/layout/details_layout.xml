@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@mipmap/picture"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+        <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:background="#333333"
+                    android:gravity="center"
+                    android:text="防治企业合同签订"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="防治服务合同:"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/getname"
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="10dp"
+                    android:text="甲方（采购单位）："
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/getname2"
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="10dp"
+                    android:text="乙方（作业单位）："
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:id="@+id/gettime"
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="10dp"
+                    android:text="签订时间：2021-07-12"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/getplace"
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="10dp"
+                    android:text="签订地点："
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:layout_width="214dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="10dp"
+                    android:text="详请："
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="435dp"
+                    android:textColor="#000000"
+                    android:text="  双方共同商定：\n1、甲方依据双方签署的作业方案，对合同约定区域内的农作物进行病虫害防治的飞防植保服务。\n2、甲乙双方共同制定《飞防植保作业方案》，其中甲方负责制定植保机械的选型、飞防作业方式等内容，乙方负责根据当地的病虫害发生情况，制定病虫害种类、农药选型、施药时间、水药配比、喷施方法等内容。\n3、如防治效果不达标，但可补打的，需及时补打，并由甲方承担服务费用、乙方承担农药费用。\n甲方责任：
+            \n1、甲方应保证乙方指定区域农作物病虫危害损失率在5%以下。\n\n如因甲方原因导致的损失超标，经鉴定后其超标损失部分由甲方承担，甲方承担损失上限为合同约定的植保作业服务费。甲方责任的原因包括但不限于：\n（1）未按《飞防植保作业方案》作业，农药喷洒量过低，导致的损失超过5%。\n（2）飞防作业不当，漏喷重喷作业面积比率超过5%。
+            \n（3）未能在指定时间内及时完成合同规定的作业任务而造成的损失超过5%\n" />
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/summit2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#003300"
+                android:text="提交"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
